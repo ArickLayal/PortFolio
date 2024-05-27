@@ -9,26 +9,26 @@ function PortFolio() {
       id: 1,
       logo: rent,
       name: "Car Rental System",
-      // link: "https://github.com/priyanshtan/Car_Rental_System.git",
+      link: "https://github.com/priyanshtan/Car_Rental_System.git",
       description:
         "Developed a mini project: a comprehensive car rental management system in Java, utilizing object-oriented programming principles for robust and maintainable code. The system covers customer management, vehicle tracking, and reservations."
-    },
-    {
-      id: 2,
-      logo: express,
-      name: "College Management System",
-      // link: "https://github.com/expressjs/express",
-      description:
-        "Currently working on a full-stack college management system using Node.js, Express, MongoDB, and Vue.js. The system includes student records, course registrations, attendance, and faculty management, along with a payment gateway integration. Node.js and Express handle the backend with RESTful APIs, while MongoDB securely stores academic data. The Vue.js frontend offers a responsive and interactive user interface. This project demonstrates expertise in modern web development, ensuring efficient data handling, a seamless user experience, and maintainable code."
     },
     {
       id: 3,
       logo: logo,
       name: "myStore",
-      // link: "https://github.com/facebook/react",
+      link: "https://github.com/priyanshtan/e-Commerce.git",
       description:
         "Developed a full-stack E-Commerce Website using Node.js, Express, MongoDB, and React. The project features user authentication, CRUD operations, and dynamic content rendering. Node.js and Express handle the backend, providing RESTful APIs, while MongoDB stores user data and application state. The React frontend offers a responsive, interactive user interface."
-    }
+    },
+    {
+      id: 2,
+      logo: express,
+      name: "College Management System",
+      link: "",
+      description:
+        "Currently working on a full-stack college management system using Node.js, Express, MongoDB, and Vue.js. The system includes student records, course registrations, attendance, and faculty management, along with a payment gateway integration. Node.js and Express handle the backend with RESTful APIs, while MongoDB securely stores academic data. The Vue.js frontend offers a responsive and interactive user interface. This project demonstrates expertise in modern web development, ensuring efficient data handling, a seamless user experience, and maintainable code."
+    },
   ];
 
   return (
@@ -40,11 +40,10 @@ function PortFolio() {
         <h1 className="text-3xl font-bold mb-5">Portfolio</h1>
         <span className="underline font-semibold">Featured Projects</span>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-3 my-7">
-          {cardItem.map(({ id, logo, name, description }) => (
+          {cardItem.map(({ id, logo, name, link, description }) => (
             <div
               className="md:w-[300px] border-[5px] rounded-lg shadow-lg p-4 flex flex-col justify-between cursor-pointer hover:scale-110 duration-300"
               key={id}
-              onClick={() => window.open(link, "_blank")}
             >
               <div className="flex flex-col items-center">
                 <img
@@ -58,12 +57,21 @@ function PortFolio() {
                 </div>
               </div>
               <div className="flex justify-center mt-4">
-                {/* <button
-                  className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"
-                  onClick={() => window.open(link, "_blank")}
-                >
-                  Source code
-                </button> */}
+                {link ? (
+                  <button
+                    className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"
+                    onClick={() => window.open(link, "_blank")}
+                  >
+                    Source code
+                  </button>
+                ) : (
+                  <button
+                    className="bg-gray-500 text-white font-bold px-4 py-2 rounded"
+                    disabled
+                  >
+                    Source code
+                  </button>
+                )}
               </div>
             </div>
           ))}

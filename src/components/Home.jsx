@@ -80,11 +80,11 @@ function Home() {
             <br/>
             <div className="flex justify-center md:justify-start">
               <a
-                href="/resume.pdf"
+                href="https://drive.google.com/file/d/103qg7wIjL0ByWLeaOwtLflfNOvd_lZ8k/view?usp=sharing"
                 download="Priyansh_Tanwar_Resume.pdf"
                 className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"
               >
-                Download Resume
+                View Resume
               </a>
             </div>
           </div>
