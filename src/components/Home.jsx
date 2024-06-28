@@ -92,7 +92,7 @@ function Home() {
             <br />
             <div className="flex justify-center md:justify-start">
               <a
-                href="https://drive.google.com/file/d/103qg7wIjL0ByWLeaOwtLflfNOvd_lZ8k/view?usp=sharing"
+                href="https://drive.google.com/file/d/1dNxVdESjYJA82xtFaKI9aSVxQmYcLk68/view"
                 download="Priyansh_Tanwar CV.pdf"
                 className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"
               >
