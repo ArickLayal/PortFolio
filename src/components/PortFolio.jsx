@@ -39,7 +39,7 @@ function PortFolio() {
       <div>
         <h1 className="text-3xl font-bold mb-5">Portfolio</h1>
         <span className="underline font-semibold">Featured Projects</span>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-3 my-7">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-3 my-10">
           {cardItem.map(({ id, logo, name, link, description }) => (
             <div
               className="md:w-[300px] border-[5px] rounded-lg shadow-lg p-4 flex flex-col justify-between cursor-pointer hover:scale-110 duration-300"
