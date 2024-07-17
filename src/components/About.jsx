@@ -10,7 +10,7 @@ function About() {
       <div>
         <h1 className="text-3xl font-bold mb-5">About</h1>
         <p>
-          Hello, I am Priyansh, a passionate Web developer with a keen eye for
+          Hello, I am Arick Layal, a passionate Web developer with a keen eye for
           MERN Stack. With a background in IT, I strive to create impactful and
           visually stunning Software solutions that leave a lasting impression.
         </p>
@@ -20,17 +20,16 @@ function About() {
         </h1>
         <ul className="list-disc ml-5">
           <li>
-            I have completed my High School from Chhaya Public School (CBSE) in
-            the year 2017 and scored 8.2 CGPA.
+            I have completed my High School from Green Field Public School (CBSE) in
+            the year 2018.
           </li>
           <li>
-            I have completed my Intermediate from Chhaya Public School (CBSE)
-            with Science Stream in the year 2019 and scored 75%.
+            I have completed my Intermediate from Green Field Public School (CBSE)
+            with Science Stream in the year 2020.
           </li>
           <li>
             I have completed my Bachelor's of Technology(Computer Science) from
-            Dr. APJ Abdul Kalam Technical University in the year 2024 and scored
-            7.1 CGPA.
+            Dr. APJ Abdul Kalam Technical University in the year 2024.
           </li>
         </ul>
         <br />
@@ -40,17 +39,13 @@ function About() {
         <span>
           Languages: Java, JavaScript.
           <br />
-          Technologies: VueJS, NodeJS, Express, MongoDB, ReactJS, HTML,
-          Bootstrap.
+          Technologies: NodeJS, Express, MongoDB, ReactJS, HTML, CSS, Bootstrap.
           <br />
           Developer Tools: VS Code, Eclipse IDE.
           <br />
-          Database: MongoDB.
+          Database: MongoDB, MySQL.
           <br />
-          Soft Skills: Presentation, Planning, Organized, Creative
-          Problem-Solving, Teamwork, Active Listening, Adaptability, Analytical
-          Thinking, Excellent problem-solving skills, Effective communicator and
-          collaborator.
+          Soft Skills: Work Ethic, Communication, Time Management, Adaptability, Creativity, TeamWork, Interpersonal Skills.
         </span>
         <br />
         <br />
@@ -62,7 +57,7 @@ function About() {
           <ul className="space-y-3">
             <li className="flex items-center space-x-2">
               <a
-                href="https://www.credly.com/badges/b8543073-54f4-4de8-974a-2d68a357dc57/public_url"
+                href="https://www.credly.com/badges/72d88f6c-5e0c-47ef-a710-ebb2473f8a95/public_url"
                 target="_blank"
                 className="flex items-center space-x-2"
               >
@@ -75,14 +70,14 @@ function About() {
             </li>
             <li>
               <a
-                href="https://www.salesforce.com/trailblazer/ptanwar9998"
+                href="https://www.salesforce.com/trailblazer/alayal"
                 target="_blank"
                 className="flex items-center space-x-2"
 
               >
                 <LiaSalesforce className="text-2xl cursor-pointer" />
                 <span>
-                  SalesForce (Mountaineer)
+                  SalesForce (Ranger)
                 </span>
               </a>
             </li>

@@ -1,5 +1,5 @@
 import React from "react";
-import rent from "../../public/rent.png";
+import rent from "../../public/weather.png";
 import express from "../../public/express.png";
 import logo from "../../public/logo.png";
 
@@ -8,10 +8,10 @@ function PortFolio() {
     {
       id: 1,
       logo: rent,
-      name: "Car Rental System",
-      link: "https://github.com/priyanshtan/Car_Rental_System.git",
+      name: "Weather App",
+      link: "https://github.com/ArickLayal/Weather-App.git",
       description:
-        "Developed a mini project: a comprehensive car rental management system in Java, utilizing object-oriented programming principles for robust and maintainable code. The system covers customer management, vehicle tracking, and reservations."
+        "It fetches real-time weather data from an API, displaying information such as temperature, humidity, and conditions. It features a user-friendly interface with input fields for city names and styled results, providing an intuitive way for users to check the weather."
     },
     {
       id: 3,

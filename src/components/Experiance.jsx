@@ -6,8 +6,9 @@ import javascript from "../../public/javascript.png";
 import mongodb from "../../public/mongodb.jpg";
 import node from "../../public/node.png";
 import express from "../../public/expressjs.avif";
-import vue from "../../public/vue.jpg";
 import react from "../../public/reactjs.png";
+import salesforce from "../../public/salesforce.png";
+import MySQL from "../../public/MySQL.png";
 
 function Experiance() {
   const cardItem = [
@@ -50,14 +51,19 @@ function Experiance() {
     },
     {
       id: 6,
-      logo: vue,
-      name: "VueJs",
-    },
-    {
-      id: 6,
       logo: react,
       name: "ReactJs",
     },
+    {
+      id: 7,
+      logo: salesforce,
+      name: "salesforce",
+    },
+    {
+      id: 8,
+      logo: MySQL,
+      name: "MySQL",
+    }
     
     
   ];

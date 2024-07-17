@@ -37,7 +37,7 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-              Hello there! I'm Priyansh, a passionate and innovative MERN stack
+              Hello there! I'm Arick, a passionate and innovative MERN stack
               developer dedicated to crafting seamless web experiences. With a
               keen eye for detail and a love for clean, efficient code, I
               transform ideas into dynamic, user-friendly applications. Explore
@@ -53,7 +53,7 @@ function Home() {
                 <ul className="flex space-x-5">
                   <li>
                     <a
-                      href="https://www.instagram.com/tanwar.9998/"
+                      href="https://www.instagram.com/arick__layal/"
                       target="_blank"
                     >
                       <FaInstagram className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
@@ -61,19 +61,19 @@ function Home() {
                   </li>
                   <li>
                     <a
-                      href="https://www.linkedin.com/in/priyansh-tanwar-03783217a/"
+                      href="https://www.linkedin.com/in/arick-layal-0416ba252/"
                       target="_blank"
                     >
                       <FaLinkedin className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://wa.me/qr/WOFAEPYKTSNLI1" target="_blank">
+                    <a href="https://wa.me/7303192567" target="_blank">
                       <FaWhatsapp className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://t.me/ptan9998" target="_blank">
+                    <a href="https://t.me/ArickLayal" target="_blank">
                       <FaTelegram className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                     </a>
                   </li>
@@ -92,8 +92,8 @@ function Home() {
             <br />
             <div className="flex justify-center md:justify-start">
               <a
-                href="https://drive.google.com/file/d/1AGpcJ2clUwp7l3L3sMzncweSpz0-kAW5/view?usp=sharing"
-                download="Priyansh_Tanwar CV.pdf"
+                href="https://drive.google.com/file/d/17lXMkXXUwW1p7IfwoEM6gB6_r267wmDD/view?usp=drivesdk"
+                download="Arick RESUME-1.pdf"
                 className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"
               >
                 View Resume

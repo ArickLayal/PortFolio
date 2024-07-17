@@ -22,7 +22,7 @@ function Footer() {
               <p className="text-sm">
                 &copy; 2024 All rights reserved.
               </p>
-              <p className="text-sm">Priyansh Tanwar</p>
+              <p className="text-sm">Arick Layal</p>
             </div>
           </div>
         </div>
